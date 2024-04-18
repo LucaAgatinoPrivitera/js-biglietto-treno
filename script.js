@@ -20,11 +20,11 @@ let prezzo = costoKM * distanzaKM
 
 // Sconti minorenni
 if (eta<18){
-    prezzo = (80 / 100) * prezzo
+    prezzo = (80 / 100) * prezzo;
 }
 // Sconti senior
 if (eta>65){
-    prezzo = (60 / 100) * prezzo
+    prezzo = (60 / 100) * prezzo;
 }
 
 //Prezzo finale, con massimo due numeri dopo la virgola
