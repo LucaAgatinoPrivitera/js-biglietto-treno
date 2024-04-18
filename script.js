@@ -22,6 +22,7 @@ let prezzo = costoKM * distanzaKM
 if (eta<18){
     prezzo = (80 / 100) * prezzo;
 }
+
 // Sconti senior
 if (eta>65){
     prezzo = (60 / 100) * prezzo;
